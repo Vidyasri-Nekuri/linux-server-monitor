@@ -1,0 +1,168 @@
+# Linux Server Monitoring Tool 🚀
+
+A lightweight Linux server monitoring and automation script built using Bash scripting on AWS EC2.
+
+This project helps monitor essential system resources such as CPU usage, memory utilization, disk space, Docker container status, and active users. It is designed as a beginner-friendly DevOps automation project demonstrating Linux administration and server health monitoring concepts.
+
+---
+
+## 📌 Features
+
+* ✅ System uptime monitoring
+* ✅ CPU usage monitoring
+* ✅ Memory usage monitoring
+* ✅ Disk usage monitoring
+* ✅ Docker service status check
+* ✅ Running Docker containers tracking
+* ✅ Logged-in user monitoring
+* ✅ Linux server health reporting
+
+---
+
+## 🛠️ Technologies Used
+
+* Linux
+* Bash Scripting
+* AWS EC2
+* Docker
+* Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```bash
+linux-server-monitor/
+│
+├── monitor.sh
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Vidyasri-Nekuri/linux-server-monitor.git
+```
+
+### 2. Navigate to Project
+
+```bash
+cd linux-server-monitor
+```
+
+### 3. Make Script Executable
+
+```bash
+chmod +x monitor.sh
+```
+
+### 4. Run Monitoring Script
+
+```bash
+./monitor.sh
+```
+
+---
+
+## 📊 Monitoring Parameters
+
+The script checks the following system metrics:
+
+| Metric             | Description                             |
+| ------------------ | --------------------------------------- |
+| System Uptime      | Displays server uptime and load average |
+| CPU Usage          | Shows current CPU utilization           |
+| Memory Usage       | Displays RAM and swap usage             |
+| Disk Usage         | Shows filesystem storage consumption    |
+| Docker Status      | Checks whether Docker service is active |
+| Running Containers | Lists currently running containers      |
+| Logged-in Users    | Displays active user sessions           |
+
+---
+
+## 🖥️ Sample Output
+
+```bash
+==============================
+ Linux Server Monitoring Tool
+==============================
+
+System Uptime:
+19:12:09 up 57 min
+
+CPU Usage:
+%Cpu(s): 0.0 us, 3.1 sy
+
+Memory Usage:
+Mem: 916 202 225
+
+Disk Usage:
+/dev/nvme0n1p1 8.0G 27%
+
+Docker Status:
+Active: active (running)
+
+Running Containers:
+dockerverse
+
+Logged-in Users:
+ec2-user
+
+Monitoring Completed.
+```
+
+---
+
+## ☁️ AWS Deployment Environment
+
+This project was tested and executed on:
+
+* AWS EC2 Instance
+* Amazon Linux
+* Docker-enabled environment
+
+---
+
+## 🚀 Future Improvements
+
+* Add email alerts
+* Generate monitoring logs
+* Automate execution using Cron Jobs
+* Integrate Slack/Discord notifications
+* Add CPU threshold alerts
+* Export reports to files
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+* Linux system monitoring
+* Bash scripting fundamentals
+* Docker service management
+* AWS EC2 server administration
+* Command-line automation
+* GitHub project management
+
+---
+
+## 👨‍💻 Author
+
+### Vidyasri Nekuri
+
+DevOps Learner focused on:
+
+* AWS
+* Docker
+* Linux
+* Automation
+* CI/CD
+
+GitHub:
+https://github.com/Vidyasri-Nekuri
+
